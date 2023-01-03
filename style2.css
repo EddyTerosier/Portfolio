@@ -1,0 +1,48 @@
+ .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-section, .mission-section {
+    margin-bottom: 20px;
+  }
+  
+  .about-section h2, .mission-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-section p, .mission-section p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  .container a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+  }
+  .container a:hover {
+    color: grey;
+    opacity: 0.6;
+  }
+  .container p {
+    font-size: 19px;
+  }
+  .container .fa-github {
+    color: #171515;
+  }
+  .container .fa-linkedin-in {
+    color: #0072b1;
+  }
+  .container li {
+    list-style-type: none;
+  }
+  .container ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
