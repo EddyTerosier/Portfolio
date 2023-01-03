@@ -25,7 +25,7 @@ nav {
   nav a {
     color: #fff;
     text-decoration: none;
-    transition: all 0.3s ease;
+    transition: all 0.7s ease;
   }
   
   nav a:hover {
@@ -34,16 +34,16 @@ nav {
   
   /* Animations */
   nav ul li:nth-child(1) {
-    animation: fadeInLeft 0.5s ease-out 0.5s both;
+    animation: fadeInLeft 0.5s ease 0.5s both;
   }
   nav ul li:nth-child(2) {
-    animation: fadeInLeft 0.5s ease-out 1s both;
+    animation: fadeInLeft 0.5s ease 1s both;
   }
   nav ul li:nth-child(3) {
-    animation: fadeInLeft 0.5s ease-out 1.5s both;
+    animation: fadeInLeft 0.5s ease 1.5s both;
   }
   nav ul li:nth-child(4) {
-    animation: fadeInLeft 0.5s ease-out 2s both;
+    animation: fadeInLeft 0.5s ease 2s both;
   }
   
   @keyframes fadeInLeft {
@@ -97,13 +97,13 @@ nav {
     #menu {
       display: none;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
       position: absolute;
       top: 60px;
       left: 0;
       right: 0;
       z-index: 1;
-      opacity: 0.7;
+      /* opacity: 0.7; */
     }
 
     #menu.active {
@@ -114,9 +114,13 @@ nav {
       margin: 10px 0;
     }
     #menu a {
-        color: #444;
+        color: #465dde;
         text-decoration: none;
       }
+    #menu a:hover {
+      color: #051549;
+      opacity: 1;
+    }
   }
 /* --------------------------- FOOTER -------------------*/
 footer {
