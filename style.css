@@ -1,5 +1,6 @@
 body {
     background-image: linear-gradient(to top left, #051549, #a2b7e9);
+    font-family: "Lato";
 }
 nav {
     background-image: linear-gradient(to top left, #040926, #465dde);

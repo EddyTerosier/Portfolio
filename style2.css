@@ -4,17 +4,17 @@
     padding: 20px;
   }
   
-  .about-section, .mission-section {
+  .about-section{
     margin-bottom: 20px;
   }
   
-  .about-section h2, .mission-section h2 {
+  .about-section h2{
     font-size: 24px;
     margin-bottom: 10px;
   }
   
-  .about-section p, .mission-section p {
-    font-size: 16px;
+  .about-section p{
+    font-size: 25px !important;
     line-height: 1.5;
   }
 
