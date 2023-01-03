@@ -201,5 +201,10 @@ footer {
   }
   
   .project-description {
-    font-size: 0.8em
+    font-size: 1.2em;
+    text-align: center
   }  
+
+  .project a {
+    color: red;
+  }
